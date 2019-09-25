@@ -72,6 +72,6 @@ click_source_by_month_pivot = click_source_by_month.pivot(
 print(click_source_by_month_pivot)
 
 
- 
+   
  
 
