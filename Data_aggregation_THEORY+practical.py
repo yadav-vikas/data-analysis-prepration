@@ -1,3 +1,6 @@
+CHECK OUT THIS LINK FOR DATA AGGREGATION IN PANDAS 
+https://s3.amazonaws.com/codecademy-content/courses/learn-pandas/Pandas%2BExample%2Bfor%2BPandas%2BAggregates.html
+
 Some examples of this type of calculation include:
 
     The DataFrame customers contains the names and ages of all of your customers. You want to find the median age:
