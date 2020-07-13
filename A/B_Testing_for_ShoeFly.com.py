@@ -49,3 +49,8 @@ b_clicks_pivot=b_clicks.groupby(['is_click','day']).user_id.count().pivot(index=
 b_clicks_pivot['percent_clicked']=b_clicks_pivot[True]/(b_clicks[True]+b_clicks[False])
 print(b_clicks_pivot)
 
+""" NOTE:clicks_pivot[True] is the number of people who clicked (because is_click was True for those users)
+
+clicks_pivot[False] is the number of people who did not click (because is_click was False for those users)
+
+So, the percent of people who clicked would be (Total Who Clicked) / (Total Who Clicked + Total Who Did Not Click)         """
