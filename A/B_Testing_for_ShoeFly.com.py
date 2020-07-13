@@ -48,3 +48,4 @@ b_clicks_pivot=b_clicks.groupby(['is_click','day']).user_id.count().pivot(index=
                               values='user_id').reset_index()
 b_clicks_pivot['percent_clicked']=b_clicks_pivot[True]/(b_clicks[True]+b_clicks[False])
 print(b_clicks_pivot)
+
