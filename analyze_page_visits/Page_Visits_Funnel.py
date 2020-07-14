@@ -33,13 +33,13 @@ null_cart_times=(cart[cart.cart_time.isnull()])
 print(null_cart_times)
 
 #What percent of users who visited Cool T-Shirts Inc. ended up not placing a t-shirt in their cart?
-print(float((null_cart_times) /visits_cart_rows)
+print((null_cart_times) /visits_cart_rows*1.0)
       
-  #What percent of users who visited Cool T-Shirts Inc. ended up not placing a t-shirt in their cart?    
-cart_checkout =cart..merge(checkout,how='left')
+#What percent of users who visited Cool T-Shirts Inc. ended up not placing a t-shirt in their cart?    
+cart_checkout = cart.merge(checkout,how='left')
 print(cart_checkout)
 cart_checkout_rows=len(cart_checkout)
-null_checkout_times=len(cart_Checkout[cart_checkout.checkout_time.isnull()])
+null_checkout_times=len(cart_checkout[cart_checkout.checkout_time.isnull()])
 print(float(null_checkout_times)/(cart_checkout_rows)) 
       
       #Merge all four steps of the funnel, in order, 
@@ -60,7 +60,8 @@ checkout_purchase_rows=len(checkout_purchase)
 null_purchase_times=len(checkout_purchase[checkout_purchase.purchase_time.isnull()])
 print(float(null_purchase_times)/(checkout_purchase_rows))
 #Using the giant merged DataFrame all_data that you created, 
-#let’s calculate the average time from initial visit to final purchase.
+
+
 #Start by adding the following column to your DataFrame:
       
       
