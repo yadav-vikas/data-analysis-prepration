@@ -1,4 +1,4 @@
-# data-analysis-using-pandas
+# data-analysis-using-pandas,Numpy,Scipy,statsmodels
 
 eating, Loading, and Selecting Data with Pandas
 Importing the Pandas Module
