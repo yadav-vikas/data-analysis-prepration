@@ -3,7 +3,7 @@
 #as well as in banner ads on Facebook, Twitter, and Google. 
 #They want to know how the two ads are performing on each of the different platforms on each day of the week. 
 #Help them analyze the data using aggregate measures.
-import codecademylib
+
 import pandas as pd
 
 ad_clicks = pd.read_csv('ad_clicks.csv')
