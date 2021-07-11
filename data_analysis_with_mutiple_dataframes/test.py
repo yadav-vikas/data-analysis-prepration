@@ -1,4 +1,3 @@
-import codecademylib
 load_file_in_context('script.py')
 
 try:
