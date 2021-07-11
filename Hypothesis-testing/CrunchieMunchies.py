@@ -1,4 +1,3 @@
-import codecademylib
 import numpy as np
 calorie_stats=np.genfromtxt('cereal.csv',delimiter=",")
 print(calorie_stats)
