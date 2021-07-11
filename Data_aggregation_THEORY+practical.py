@@ -46,7 +46,7 @@ unique 	List of unique values in column
  How to perform aggregate statistics over individual rows with the same value using groupby.
  How to rearrange a DataFrame into a pivot table, a great way to compare data across two dimensions.
 
-import codecademylib
+
 import pandas as pd
 
 user_visits = pd.read_csv('page_visits.csv')
