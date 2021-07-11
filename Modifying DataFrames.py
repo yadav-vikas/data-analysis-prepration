@@ -1,7 +1,6 @@
 #this is data frames based on LAMBDA FUNCTION OF PYTHON
 #shows how to extract data from table using functions
 
-import codecademylib
 import pandas as pd
 
 orders = pd.read_csv('shoefly.csv')
