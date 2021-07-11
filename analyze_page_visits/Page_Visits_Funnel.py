@@ -1,4 +1,3 @@
-import codecademylib
 import pandas as pd
 
 visits = pd.read_csv('visits.csv',
