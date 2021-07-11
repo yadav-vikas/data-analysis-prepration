@@ -35,7 +35,6 @@ print(v_to_c)
 
 print(v_to_c.time.mean())
 
-import codecademylib
 import pandas as pd
 
 visits = pd.read_csv('visits.csv',
