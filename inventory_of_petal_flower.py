@@ -1,5 +1,4 @@
 #data analyst for a chain of gardening stores called Petal Power.
-import codecademylib
 import pandas as pd
 inventory=pd.read_csv('inventory.csv')
 print(inventory.head(10))
@@ -23,7 +22,6 @@ inventory['full_description']=combine_lambda
 
 
 ------------------------------------------------------------------------------------------------
-import codecademylib
 import pandas as pd
 df= pd.read_csv('inventory.csv')
 print(df.head(10))
